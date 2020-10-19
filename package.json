@@ -1,0 +1,25 @@
+{
+	"author": {
+	  "name": "Aritz Beobide-Cardinal",
+	  "email": "aritz@aritzcracker.ca"
+	},
+	"bugs": {
+	  "url": "https://github.com/ARitz-Cracker/all-permutations/issues"
+	},
+	"dependencies": {},
+	"description": "Get every single possible arrangement of a set of items",
+	"devDependencies": {},
+	"homepage": "https://github.com/ARitz-Cracker/all-permutations",
+	"license": "MIT",
+	"main": "index.js",
+	"name": "all-permutations",
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/ARitz-Cracker/all-permutations.git"
+	},
+	"scripts": {},
+	"version": "1.0.0",
+	"browserRequirifier":{
+		"include":[]
+	}
+}
