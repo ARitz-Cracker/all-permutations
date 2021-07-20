@@ -1,5 +1,14 @@
-
-// https://stackoverflow.com/a/14133501 ported to JavaScript
+/**
+ * Returns every possible way to arrange a set of items
+ * Based on this StackOverflow answer, ported to JS
+ * https://stackoverflow.com/a/14133501 ported to JavaScript
+ * @template T
+ * @param {Set<T>} itemSet The set get all permutations from
+ * @param {T[]} [permutation=[]] internal use
+ * @param {number} [size=itemSet.size] internal use
+ * @param {T[][]} [result=[]] internal use
+ * @returns {T[][]}
+ */
 const allPermutations = function(itemSet, permutation = [], size = itemSet.size, result = []) {
 	/* permutation stack has become equal to size that we require */
 	if(permutation.length == size) {
